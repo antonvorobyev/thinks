@@ -1,5 +1,4 @@
-/.idea/
-/node_modules/
-/target/
-/project/project
-/project/target
+/*
+!/index.html
+!/target/scala-2.13/thinks-opt.js
+!/target/scala-2.13/thinks-opt.js.map
