@@ -1,4 +1,5 @@
 enablePlugins(ScalaJSPlugin)
+enablePlugins(JSDependenciesPlugin)
 
 name := "Thinks"
 scalaVersion := "2.13.1"
@@ -9,3 +10,6 @@ libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "1.0.0"
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 libraryDependencies += "com.lihaoyi" %%% "utest" % "0.7.4" % "test"
 testFrameworks += new TestFramework("utest.runner.Framework")
+
+skip in packageJSDependencies := false
+jsDependencies += "org.webjars" % "google-analytics-snippet" % "20161204" / "20161204/analytics-snippet.js"
