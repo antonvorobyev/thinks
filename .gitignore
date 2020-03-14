@@ -2,3 +2,5 @@
 !/index.html
 !/target/scala-2.13/thinks-opt.js
 !/target/scala-2.13/thinks-opt.js.map
+!/target/scala-2.13/thinks-jsdeps.min.js
+!/target/scala-2.13/thinks-jsdeps.min.js.map
